@@ -122,7 +122,7 @@ const DOM = {
         <td class="description">${transaction.description}</td>
         <td class="${cssClass}">${Utils.formatCurrency(transaction.amount)}</td>
         <td class="date">${transaction.date}</td>
-        <td><img onclick="Transaction.removeTransact(${transaction.id})" src="/public/assets/minus.svg" alt="remover transação"></td>
+        <td><img onclick="Transaction.removeTransact(${transaction.id})" src="public/assets/minus.svg" alt="remover transação"></td>
         `
        DOM.transactionContainer.appendChild(tr)
  
